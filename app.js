@@ -12,7 +12,7 @@ function asignarTextoElemento(elemento, texto) {
     elementoHTML.innerHTML = texto;
     return;
 }
-
+//Esta funcion es para verificar cuantos intentos realiza el usuario
 function verificarIntento() {
     let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
     
