@@ -1,7 +1,12 @@
+//Son las variables que se van a estar utilizando
 let numeroSecreto = generarNumeroSecreto();
+//Se inicializa una variable en 0  para saber los intentos que se realizan para adivinar el numero 
 let intentos = 0;
 
+/*vamos a crear una funcion en la que vamos a llamarla "asignarTextoElemento" a la cual le vamos 
+a pasar los parametros que son "elemento" y "texto"
 
+*/
 function asignarTextoElemento(elemento, texto) {
     let elementoHTML = document.querySelector(elemento);
     elementoHTML.innerHTML = texto;
