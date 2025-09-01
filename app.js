@@ -24,7 +24,7 @@ function verificarIntento() {//j
         asignarTextoElemento('p',`Acertaste el número en ${intentos} ${(intentos === 1) ? 'vez' : 'veces'}`);
         document.getElementById('reiniciar').removeAttribute('disabled');
     } else {
-        //El usuario no acertó.
+        //El usuario no acertó, es decir, que el numero sea menor
         if (numeroDeUsuario > numeroSecreto) {
             asignarTextoElemento('p','El número secreto es menor');
         } else {
