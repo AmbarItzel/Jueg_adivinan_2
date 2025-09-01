@@ -42,7 +42,7 @@ function verificarIntento() {//j
 function limpiarCaja() {
     document.querySelector('#valorUsuario').value = '';
 }
-
+//Creamos una funcion llamada  generarNumeroSecreto
 function generarNumeroSecreto() {
     return Math.floor(Math.random()*10)+1;
 
