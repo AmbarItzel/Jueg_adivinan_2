@@ -5,7 +5,8 @@ let intentos = 0;
 
 /*vamos a crear una funcion en la que vamos a llamarla "asignarTextoElemento" a la cual le vamos 
 a pasar los parametros que son "elemento" y "texto"
-
+Para que le pasamos los parametros?? el elemento es para el numero y el de texto es para que sea un parametro que pueda 
+cambiar el texto segun las veces que se intetaron para decifrar el numero oculto
 */
 function asignarTextoElemento(elemento, texto) {
     let elementoHTML = document.querySelector(elemento);
@@ -60,5 +61,6 @@ function reiniciarJuego() {
     document.querySelector('#reiniciar').setAttribute('disabled','true');
     
 }
+//Te regresa a que se pueda volver a iniciar el juego
 
 condicionesIniciales();
