@@ -17,7 +17,7 @@ function asignarTextoElemento(elemento, texto) {
     return;
 }
 //Esta funcion es para verificar cuantos intentos realiza el usuario
-function verificarIntento() {
+function verificarIntento() {//j
     let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
     
     if (numeroDeUsuario === numeroSecreto) {
