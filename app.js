@@ -29,6 +29,7 @@ function verificarIntento() {//j
             //Asigna en un parrafo el siguente texto
             asignarTextoElemento('p','El número secreto es menor');
         } else {
+            //Asigna en un parrafo el siguente texto
             asignarTextoElemento('p','El número secreto es mayor');
         }
         intentos++;
