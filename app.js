@@ -9,8 +9,9 @@ Para que le pasamos los parametros?? el elemento es para el numero y el de texto
 cambiar el texto segun las veces que se intetaron para decifrar el numero oculto
 */
 function asignarTextoElemento(elemento, texto) {
-/*Se va a crear una variable con el nombre de elemnto y lo vamos a traer del apartado del documento y se va a mantener en "elemento"  
-*/
+// Definimos la función "asignarTextoElemento" que recibe dos parámetros:
+// - elemento: un string que indica el selector CSS (ej. "#id", ".clase", "h1").
+// - texto: el contenido que se va a mostrar dentro del elemento encontrado.
     let elementoHTML = document.querySelector(elemento);
     elementoHTML.innerHTML = texto;
     return;
