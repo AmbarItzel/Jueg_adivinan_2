@@ -19,7 +19,7 @@ function asignarTextoElemento(elemento, texto) {
 //Esta funcion es para verificar cuantos intentos realiza el usuario
 function verificarIntento() {//j
     let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
-    
+    https://github.com/AmbarItzel/Jueg_adivinan_2/edit/main/app.js
     if (numeroDeUsuario === numeroSecreto) {
         asignarTextoElemento('p',`Acertaste el número en ${intentos} ${(intentos === 1) ? 'vez' : 'veces'}`);
         document.getElementById('reiniciar').removeAttribute('disabled');
@@ -31,6 +31,7 @@ function verificarIntento() {//j
             asignarTextoElemento('p','El número secreto es mayor');
         }
         intentos++;
+        //Se limpia el cuadro de texto cada que se hace un intento
         limpiarCaja();
     }
     return;
